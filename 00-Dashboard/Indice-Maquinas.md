@@ -13,6 +13,7 @@ tipo: indice
 - [[Chimichurri]] — DC, credenciales en disco
 - [[Pila]] — Buffer Overflow
 - [[Folclore]] — Cadena SMB
+- [[Welcome To The Jungle]] — IIS/PHP, webshell + GodPotato a SYSTEM
 
 ### Linux
 - [[El Baifo]] — Redis + SUID
@@ -25,6 +26,7 @@ tipo: indice
 ### Web
 - [[BabyCorp]] — LFI como root
 - [[AllSafe]] 🟡 — LaTeX/LFI sin confirmar
+- [[Welcome To The Jungle]] — webshell PHP en IIS + escalada SYSTEM
 
 ### Multi-host
 - [[THLCPPTV16]] — pivoting Ligolo/WireGuard
@@ -43,8 +45,10 @@ tipo: indice
 | [[BitLocker-BEK]] | [[Elevator]] |
 | [[Buffer-Overflow]] | [[Pila]] |
 | [[Responder-NTLM-Theft]] | [[Phantom]] |
-| [[Esteganografia-WAV-LSB]] | [[Cold Fear]] |
+| [[Esteganografia-WAV-LSB]] | [[Cold Fear]], [[Welcome To The Jungle]] |
 | [[Redis-Sin-Autenticacion]] | [[El Baifo]] |
+| [[GodPotato-SeImpersonate]] | [[Welcome To The Jungle]] |
+| [[PHP-Webshell]] | [[Welcome To The Jungle]] |
 
 ## Referencias
 

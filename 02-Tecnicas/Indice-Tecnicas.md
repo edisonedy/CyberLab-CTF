@@ -14,6 +14,7 @@ ultima_revision: 2026-10-20
 - [[SSRF]]
 - [[File-Upload]]
 - [[PHP-Filters]]
+- [[PHP-Webshell]]
 
 ## Servicios (`02-Tecnicas/Servicios`)
 - [[FTP-Anonimo]]
@@ -49,6 +50,7 @@ ultima_revision: 2026-10-20
 - [[Sleuthkit]]
 - [[BitLocker-BEK]]
 - [[LaTeX-Injection]]
+- [[GodPotato-SeImpersonate]]
 
 ## Criptografía / Esteganografía
 - [[Exif-Metadata]]

@@ -41,6 +41,7 @@ ultima_revision: 2026-10-20
 - [[Securitron]] — Linux / SQLi + cron
 - [[THLCPPTV16]] — Multi-host / pivoting
 - [[NovaVault]] — Linux / SSRF + SUID reversing
+- [[Welcome To The Jungle]] — Windows / IIS+PHP webshell + GodPotato a SYSTEM
 
 ### 🟡 En progreso
 
@@ -55,10 +56,10 @@ ultima_revision: 2026-10-20
 
 | Métrica | Valor |
 |---|---|
-| Máquinas resueltas (propias) | 13 |
+| Máquinas resueltas (propias) | 14 |
 | Máquinas en progreso | 2 |
 | Referencias externas | 1 |
-| Técnicas documentadas | 44 |
+| Técnicas documentadas | 46 |
 | Herramientas documentadas | 21 |
 | Playbooks | 5 |
 | Cheatsheets | 5 |

@@ -3,7 +3,7 @@ tags: [tecnica, criptografia, esteganografia, audio, wav, lsb]
 tipo: tecnica
 categoria: criptografia-esteganografia
 estado: por-reforzar
-maquinas: [Cold Fear]
+maquinas: [Cold Fear, Welcome To The Jungle]
 ---
 
 # Esteganografía en WAV (LSB de audio PCM)
@@ -42,10 +42,12 @@ PY
 | Máquina | Contexto | Resultado |
 |---|---|---|
 | [[Cold Fear]] | Reconstrucción de **2 bits LSB** del PCM | mensaje con `Victor` |
+| [[Welcome To The Jungle]] | `stegseek` sobre `solo_final.wav` (extraído de `songs.zip`) | `Password:sweetjungle2025` + `URL:theh3xgun5` |
 
 ## 7. Falsos positivos / pruebas fallidas
 
 - El vector correcto **no** siempre es la imagen: en Cold Fear fue el **audio** ([[Esteganografia-LSB]] falló en la imagen).
+- **No** todo WAV tiene esteganografía: en [[Welcome To The Jungle]] el fichero era una pista musical legítima y el mensaje estaba en la capa de datos que `stegseek` extrae (no en los LSB del PCM). El `stegseek` sin passphrase puede dar falsos positivos; conviene deducir la clave del contexto (en esa máquina, el nombre de la banda `thehexguns`).
 
 ## 8. Prevención y mitigación
 

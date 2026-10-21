@@ -20,6 +20,7 @@ Máquinas con **user y/o root confirmados** por evidencia propia. No se incluyen
 | [[Elevator]] | Windows Server 2022 (DC) | 192.168.56.104 | ✅ | ✅ | 2026-10-20 |
 | [[Pila]] | Windows Server 2008 (x86) | — | ✅ | ✅ | 2026-10-20 |
 | [[Folclore]] | Windows 10 / Server 2019 | 192.168.56.105 | ✅ | ✅ | 2026-10-20 |
+| [[Welcome To The Jungle]] | Windows Server 2022 (IIS+PHP) | 192.168.56.106 | ✅ | ✅ | 2026-10-21 |
 
 ## Linux
 
