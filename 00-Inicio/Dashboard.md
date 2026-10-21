@@ -1,21 +1,19 @@
-# 🛡️ CyberLab — Mi laboratorio de ciberseguridad
+---
+tags: [inicio, redireccion]
+tipo: redireccion
+---
 
-## 🎯 Objetivo
-Aprender pentesting mediante CTF, documentar las técnicas y construir mi base de conocimientos.
+# CyberLab — Inicio
 
-## 🖥️ CTF activos
-- [[Phantom]]
+> [!info] Dashboard principal
+> El dashboard activo está en **[[Dashboard]]** (`00-Dashboard/Dashboard.md`).
 
-## 🗺️ Roadmaps
-- [[Pentesting]]
-- [[Active Directory]]
-- [[Web Hacking]]
+## Accesos rápidos
 
-## 🛠️ Herramientas
-- [[Nmap]]
-- [[Burp Suite]]
-- [[Metasploit]]
+- [[Dashboard]]
+- [[Resueltas]] · [[En-Progreso]] · [[Referencias]]
+- [[Indice-Tecnicas]] · [[Indice-Herramientas]]
+- [[Metodo-de-Resolucion]] · [[Roadmap-Maestro]]
+- [[Lecciones-Globales]] · [[Indice-Plantillas]]
 
-## 📈 Progreso
-- Máquinas iniciadas: 1
-- Máquinas completadas: 0
+> Esta nota reemplaza al dashboard antiguo. El original se conserva en el backup de importación.

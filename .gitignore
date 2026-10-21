@@ -9,5 +9,18 @@
 *password*
 *secret*
 
+# Claves SSH (incluye la privada 'edison' y la pública)
+edison
+edison.pub
+id_rsa*
+id_ed25519*
+*.pub
+
+# Backups locales de importación
+.backups-importacion-*/
+
+# Artefactos de sesión (volcados de herramientas)
+*.bak
+
 # Configuración local de Obsidian
 **/.obsidian/
