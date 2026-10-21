@@ -14,6 +14,7 @@ tipo: indice
 - [[Pila]] — Buffer Overflow
 - [[Folclore]] — Cadena SMB
 - [[Welcome To The Jungle]] — IIS/PHP, webshell + GodPotato a SYSTEM
+- [[Patata Magica]] — XAMPP/LFI, SeImpersonate + GodPotato (resuelta por forense offline)
 
 ### Linux
 - [[El Baifo]] — Redis + SUID
@@ -47,7 +48,8 @@ tipo: indice
 | [[Responder-NTLM-Theft]] | [[Phantom]] |
 | [[Esteganografia-WAV-LSB]] | [[Cold Fear]], [[Welcome To The Jungle]] |
 | [[Redis-Sin-Autenticacion]] | [[El Baifo]] |
-| [[GodPotato-SeImpersonate]] | [[Welcome To The Jungle]] |
+| [[GodPotato-SeImpersonate]] | [[Welcome To The Jungle]], [[Patata Magica]] |
+| [[LFI]] / File Upload | [[Patata Magica]] |
 | [[PHP-Webshell]] | [[Welcome To The Jungle]] |
 
 ## Referencias
