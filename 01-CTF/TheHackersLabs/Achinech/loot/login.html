@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"  >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Assets load -->
+
+    <!--
+        Notice to developers :
+
+
+        If you turn debug mode on, the asset manager will be off.
+        If you turn degug mode off, the asset manager will be on.
+
+        Without the asset manager, the CSS/JS files are published from their real url (eg: http://yourlimesurvey.url/scripts/admin/admin_core.js)
+        So, once a browser loaded once those files, it cache it, and don't load it anymore.
+        Then, if you change some css/js files, final user must clean its browser cache to get the new version of the cache.
+        This was the old LS behaviour, if debug mode is on, you'll have this very behaviour
+
+        The asset manager resolve the browser cache problem. It copy the css/js files to a tmp directory before publishing it:
+        http://yourlimesurvey.url/tmp/assets/e929b9d4/admin_core.js
+
+        For admin GUI, the asset manager works on a base of a "file by file" : each single css/js file is published as a single asset.
+        So if you touch any css/js file published via the asset (updating its date of modification), the asset manager will AUTOMATICALLY create a new tmp directory:
+        http://yourlimesurvey.url/tmp/assets/eb139b88/admin_core.js
+
+        Then, the browser will automatically reload the file, and the final user don't need to refresh its cache.
+        You should never have to delete the tmp/assets directory. You can do it to free some space on your server, but that all.
+
+        notice: the css/js files from third party extension use the package system. It means that the asset manager will publish them on the base of the directory logic.
+        So, if you update any css/js file from a third party extension, make sure that the modification date of the root directory is updated.
+    -->
+
+                <!-- Debug mode is off, so the asset manager will be used-->
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/ae89c3e2/jquery-ui.structure.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/f919e0f4/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/ffb014dc/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/ffb014dc/yiistrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/b8c1479/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/16c24c8c/css/select2.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/16c24c8c/css/select2-bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/7f1bc02a/css/bootstrap-datetimepicker.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/4c7163c8/roboto.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/4c7163c8/icomoon.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/308d68ff/build/lstutorial.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/8adb1d7a/build/adminbasics.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/6dbd2e23/build.min/css/adminsidepanel.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/fce63f5c/css/lime-admin-colors.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/fce63f5c/css/statistics.css" />
+<script type='text/javascript'>window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="/tmp/assets/f899d7cf/jquery-3.5.1.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/f899d7cf/jquery-migrate-3.3.2.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/ae89c3e2/jquery-ui.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/6dbd2e23/build.min/js/adminsidepanel.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/b651f742/js.cookie.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/ffb014dc/bootstrap.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/ffb014dc/plugins/bootstrapconfirm/bootstrapconfirm.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/41a1d403/moment-with-locales.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/16c24c8c/js/select2.full.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/65c5f7bf/build/lslog.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/2c6990d9/min/pjax.combined.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/2728ab63/ckeditor.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/2728ab63/config.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/89b6c380/ckeditoradditions.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/cb5040ba/script.js" class="headScriptTag"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+           window.LS = window.LS || {}; window.LS.globalUserId = "";
+LS.data = {"baseUrl":"http:\/\/192.168.56.108","showScriptName":true,"urlFormat":"path","adminImageUrl":"\/themes\/admin\/Sea_Green\/images\/","csrfTokenName":"YII_CSRF_TOKEN","csrfToken":"cTlLVEl4VjRCc1dZcGd0d2hmX1lMdXJjZGlFQ0hydzkTfrw4DY8b17BPiYP6ZfM4BOKC4vmpeguIrU6wmHbzXQ==","csrfTokenData":{"YII_CSRF_TOKEN":"cTlLVEl4VjRCc1dZcGd0d2hmX1lMdXJjZGlFQ0hydzkTfrw4DY8b17BPiYP6ZfM4BOKC4vmpeguIrU6wmHbzXQ=="},"language":"es","replacementFields":{"path":"\/index.php\/limereplacementfields\/index"}};
+
+                    // @see https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#jquery
+                    function csrfSafeMethod(method) {
+                        // these HTTP methods do not require CSRF protection
+                        return (/^(GET|HEAD|OPTIONS)$/.test(method));
+                    }
+                    // Use $.ajaxPrefilter() instead of $.ajaxSetup({beforeSend: ...}) to add the CSRF token because beforeSend is
+                    // executed after the content type is determined. So, if the request had no data when beforeSend is executed,
+                    // the content type is 'text/plain', which is wrong.
+                    $.ajaxPrefilter(function(settings) {
+                        if(!csrfSafeMethod(settings.type)) {
+                            // Data could be passed as string or object, so we add the token depending on the data type
+                            if (typeof settings.data == 'string') {
+                                // NB: This sometimes includes the CSRF token twice, when already added to data.
+                                settings.data +=  '&YII_CSRF_TOKEN=cTlLVEl4VjRCc1dZcGd0d2hmX1lMdXJjZGlFQ0hydzkTfrw4DY8b17BPiYP6ZfM4BOKC4vmpeguIrU6wmHbzXQ==';
+                            } else {
+                                settings.data = settings.data || {};
+                                settings.data.YII_CSRF_TOKEN = 'cTlLVEl4VjRCc1dZcGd0d2hmX1lMdXJjZGlFQ0hydzkTfrw4DY8b17BPiYP6ZfM4BOKC4vmpeguIrU6wmHbzXQ==';
+                            }
+                        }
+                    });
+var frameSrc = "/login";
+
+/*]]>*/
+</script>
+<title>LimeSurvey</title>
+    <link rel="shortcut icon" href="/themes/admin/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/themes/admin/favicon.ico" type="image/x-icon" />
+            </head>
+<body>
+    <div id="beginScripts">
+        <script type="text/javascript" src="/tmp/assets/b8c1479/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="/tmp/assets/7f1bc02a/js/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="/tmp/assets/8adb1d7a/build/adminbasics.min.js"></script>
+<script type="text/javascript" src="/tmp/assets/cd54e773/js/modaleditor.js"></script>
+
+    </div>
+<!-- Loading wrapper -->
+<div id='ls-loading'>
+    <span id='ls-loading-spinner' class='fa fa-spinner fa-spin fa-4x'></span>
+    <span class='sr-only'>Cargando...</span>
+</div>
+
+
+<!-- BEGIN LAYOUT_MAIN --><div class="container-fluid">
+    <div class="row">
+        <div id="notif-container" class="col-sm-12 content-right" style="z-index: 999">
+                    </div>
+    </div>
+</div> <div id="pjax-file-load-container" class="ls-flex-row col-12"><div style="height:2px;width:0px;"></div></div><!-- Full page, started in Survey_Common_Action::render_wrapped_template() -->
+<div class="container-fluid full-page-wrapper" id="in_survey_common_action"><x-test id="action::login"></x-test><noscript>If you see this you have probably JavaScript deactivated. LimeSurvey does not work without Javascript being activated in the browser!</noscript>
+<div class="container-fluid welcome">
+    <div class="row text-center">
+        <div id="login-panel">
+            <div class="panel panel-primary login-panel" id="panel-1">
+
+                <!-- Header -->
+                <div class="panel-body">
+                    <div class="row">
+                          <img alt="logo" id="profile-img" class="profile-img-card center-block" src="/tmp/assets/8442dd05/logo.png" />
+                             <p>Administración</p>
+                    </div>
+                </div>
+
+                <!-- Action Name -->
+                <div class="row login-title login-content">
+                      <div class="col-lg-12">
+                       <h3>Entrar</h3>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <form id="loginform" name="loginform" action="/index.php/admin/authentication/sa/login" method="post">
+<input type="hidden" value="cTlLVEl4VjRCc1dZcGd0d2hmX1lMdXJjZGlFQ0hydzkTfrw4DY8b17BPiYP6ZfM4BOKC4vmpeguIrU6wmHbzXQ==" name="YII_CSRF_TOKEN" />                    <div class="row login-content login-content-form">
+                        <div class="col-lg-12">
+                            <input type="hidden" value="Authdb" name="authMethod" id="authMethod" /><span><label for='user'>Nombre de usuario</label><input size="240" maxlength="240" class="form-control" type="text" value="" name="user" id="user" /></span><span><label for='password'>Contraseña</label><input size="240" maxlength="240" class="form-control" type="password" value="" name="password" id="password" /></span><label for="loginlang">Idioma</label><select id="loginlang" name="loginlang" class="form-control">
+<option value="default" selected="selected">Predeterminado</option>
+<option value="he"> עברית - Hebreo</option>
+<option value="be">Беларускі - Bielorruso</option>
+<option value="ky">Кыргызча - Kirguís</option>
+<option value="mk">Македонски - Macedonio</option>
+<option value="mn">Монгол - Mongol</option>
+<option value="ru">Русский - Ruso</option>
+<option value="sr">Српски - Serbio (Cirílico)</option>
+<option value="hy">հայերեն - Armenio</option>
+<option value="ur">اردو - Urdu</option>
+<option value="prs">دری - Persa dari</option>
+<option value="ar">عَرَبيْ - Árabe</option>
+<option value="fa">فارسی - Persa</option>
+<option value="ps">پښتو - Pastún</option>
+<option value="ckb">کوردیی ناوەندی - Kurdo (Sorani)</option>
+<option value="mr">मराठी - Maratí</option>
+<option value="hi">हिन्दी - Hindú</option>
+<option value="is">íslenska - Islandés</option>
+<option value="bn">বাংলা - Bengalí</option>
+<option value="pa">ਪੰਜਾਬੀ - Punjabí</option>
+<option value="gu">ગુજરાતી - Guyaratí</option>
+<option value="ta">தமிழ் - Tamil</option>
+<option value="zh-Hans">简体中文 - Chino (Simplificado)</option>
+<option value="zh-Hant-HK">繁體中文語系 - Chino (Tradicional - Hong Kong)</option>
+<option value="zh-Hant-TW">繁體中文（台灣） - Chino (Tradicional - Taiwan)</option>
+<option value="si">සිංහල - Cingalés</option>
+<option value="th">ภาษาไทย - Tailandés</option>
+<option value="mya">မြန်မာဘာသာ - Myanmar (Birmano)</option>
+<option value="ka">ქართული ენა - Georgiano</option>
+<option value="am">አማርኛ - Amharic</option>
+<option value="ko">한국어 - Coreano</option>
+<option value="el">Ελληνικά - Griego</option>
+<option value="cs">Česky - Checo</option>
+<option value="cs-informal">Česky neformální - Checo (informal)</option>
+<option value="bg">Български - Búlgaro</option>
+<option value="ti">ትግርኛ - Tigriña</option>
+<option value="sah">Саха тыла - Yakuto</option>
+<option value="tg">Тоҷикӣ - Tayiko</option>
+<option value="uk">Українська - Ucraniano</option>
+<option value="ja">日本語 - Japonés</option>
+<option value="so">Af-Soomaali - Somalí</option>
+<option value="af">Afrikaans - Afrikáans</option>
+<option value="az">Azerbaycanca - Azerí</option>
+<option value="id">Bahasa Indonesia - Indonesio</option>
+<option value="ms">Bahasa Melayu - Malayo</option>
+<option value="bs">Bosanski - Bosnio</option>
+<option value="ca">Català - Català</option>
+<option value="ca-valencia">Català (Valencià) - Catalán (Valencia)</option>
+<option value="ceb">Cebuano - Cebuano</option>
+<option value="ny">Chichewa - Chichewa</option>
+<option value="cnr">Crnogorski - Montenegrino</option>
+<option value="cy">Cymraeg - Galés</option>
+<option value="da">Dansk - Danés</option>
+<option value="de">Deutsch - Alemán</option>
+<option value="de-informal">Deutsch (Du) - Alemán (informal)</option>
+<option value="de-easy">Deutsch - Leichte Sprache - German (easy)</option>
+<option value="et">Eesti - Estonio</option>
+<option value="en">English - Inglés</option>
+<option value="es">Español - Español</option>
+<option value="es-CL">Español chileno - Español (Chile)</option>
+<option value="es-CO">Español colombiano - Español (Colombia)</option>
+<option value="es-MX">Español mexicano - Español (México)</option>
+<option value="es-AR">Español rioplatense - Español (Argentina)</option>
+<option value="es-AR-informal">Español rioplatense informal - Español (Argentina) (Informal)</option>
+<option value="eu">Euskara - Euskara</option>
+<option value="fr">Français - Francés</option>
+<option value="ful">Fulfulde - Fula</option>
+<option value="ie">Gaeilge - Irlandés</option>
+<option value="gl">Galego - Galego</option>
+<option value="hr">Hrvatski - Croata</option>
+<option value="run">Ikirundi - Kirundi</option>
+<option value="ilo">Ilokano - Ilocano</option>
+<option value="hil">Ilonggo - Hiligaynon</option>
+<option value="it">Italiano - Italiano</option>
+<option value="it-informal">Italiano (informale) - Italiano (informal)</option>
+<option value="kal">Kalaallisut - Groenlandés</option>
+<option value="rw">Kinyarwanda - Kiñarwanda</option>
+<option value="swh">Kiswahili - Suajili</option>
+<option value="kmr">Kurmancî - Kurdo (Kurmanji)</option>
+<option value="lb">Lëtzebuergesch - Luxemburgués</option>
+<option value="lv">Latviešu - Letón</option>
+<option value="oc">Lenga d&#039;òc - Occitano</option>
+<option value="lt">Lietuvių - Lituano</option>
+<option value="hu">Magyar - Húngaro</option>
+<option value="ml">Malayāḷaṁ - Malayalam</option>
+<option value="mt">Malti - Maltés</option>
+<option value="nl">Nederlands - Holandés</option>
+<option value="nl-informal">Nederlands (informeel) - Holandés (informal)</option>
+<option value="nb">Norsk Bokmål - Noruego (Bokmal)</option>
+<option value="nn">Norsk Nynorsk - Noruego (Nynorsk)</option>
+<option value="pap-CW">Papiamentu - Papiamento (Curaçao y Bonaire)</option>
+<option value="pl">Polski - Polaco</option>
+<option value="pl-informal">Polski (nieformalny) - Polaco (informal)</option>
+<option value="pt">Português - Portugués</option>
+<option value="pt-BR">Português do Brasil - Portugués (Brasileño)</option>
+<option value="kk">Qazaqşa - Kazajo</option>
+<option value="ro">Româna - Rumano</option>
+<option value="roh">Rumantsch - Romanche</option>
+<option value="sq">Shqipe - Albano</option>
+<option value="sk">Slovenčina - Eslovaco</option>
+<option value="sl">Slovenščina - Esloveno</option>
+<option value="sr-Latn">Srpski - Serbio (Latino)</option>
+<option value="fi">Suomi - Finlandés</option>
+<option value="sv">Svenska - Sueco</option>
+<option value="smi">Sámi - Sami</option>
+<option value="tr">Türkçe - Turco</option>
+<option value="tl">Tagalog - Tagalog</option>
+<option value="vi">Tiếng Việt - Vietnamita</option>
+<option value="fil">Wikang Filipino - Filipino</option>
+<option value="xho">isiXhosa - Xhosa</option>
+<option value="zu">isiZulu - Zulú</option>
+<option value="ug">ئۇيغۇرچە - Uigur</option>
+</select>
+                                                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="row login-submit login-content">
+                        <div class="col-lg-12">
+                                <p><input type='hidden' name='action' value='login' />
+                                   <input type='hidden' id='width' name='width' value='' />
+                                    <button type="submit" class="btn btn-default" name='login_submit' value='login'>Entrar</button><br />
+                                    <br/>
+                                                                            <a href='/index.php/admin/authentication/sa/forgotpassword'>¿Olvidó su clave?</a><br />
+                                                                        </p>
+                        </div>
+
+                    </div>
+                </form>            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Set focus on user input -->
+<script type='text/javascript'>
+$( document ).ready(function() {
+    $('#user').focus();
+    $("#width").val($(window).width());
+});
+$( window ).resize(function() {
+    $("#width").val($(window).width());;
+});
+</script>
+</div><!-- END LAYOUT_MAIN --><script type="text/javascript" src="/tmp/assets/308d68ff/build/lstutorial.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('body').popover({'selector':'a\x5Brel\x3Dpopover\x5D'});
+jQuery('body').tooltip({'selector':'a\x5Brel\x3Dtooltip\x5D'});
+jQuery('body').popover({'selector':'a\x5Brel\x3Dpopover\x5D'});
+jQuery('body').tooltip({'selector':'a\x5Brel\x3Dtooltip\x5D'});
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+jQuery('#loginlang').select2({'htmlOptions':{'id':'loginlang'},'theme':'bootstrap'});
+});
+/*]]>*/
+</script>
+</body>
+    </html>

@@ -1,0 +1,31 @@
+# Nmap 7.991 scan initiated Sat Oct 24 11:48:09 2026 as: /usr/lib/nmap/nmap --privileged -sT -sV -sC -p22,80,139,445,3306 -oN nmap/services.txt 192.168.56.108
+Nmap scan report for 192.168.56.108
+Host is up (0.00038s latency).
+
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 9.2p1 Debian 2+deb12u10 (protocol 2.0)
+| ssh-hostkey: 
+|   256 af:79:a1:39:80:45:fb:b7:cb:86:fd:8b:62:69:4a:64 (ECDSA)
+|_  256 6d:d4:9d:ac:0b:f0:a1:88:66:b4:ff:f6:42:bb:f2:e5 (ED25519)
+80/tcp   open  http        Apache httpd 2.4.68 ((Debian))
+|_http-title:         LimeSurvey    
+|_http-generator: LimeSurvey http://www.limesurvey.org
+|_http-server-header: Apache/2.4.68 (Debian)
+139/tcp  open  netbios-ssn Samba smbd 4
+445/tcp  open  netbios-ssn Samba smbd 4
+3306/tcp open  mysql       MariaDB 10.3.23 or earlier (unauthorized)
+MAC Address: 08:00:27:81:9F:03 (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: -1s
+| smb2-time: 
+|   date: 2026-10-24T16:48:20
+|_  start_date: N/A
+|_nbstat: NetBIOS name: ACHINECH, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   3.1.1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 24 11:48:22 2026 -- 1 IP address (1 host up) scanned in 12.51 seconds

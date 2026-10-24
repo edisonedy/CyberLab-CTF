@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <metadata>
+  <name>AchiShell</name>
+  <type>plugin</type>
+  <creationDate>2025-01-01</creationDate>
+  <lastUpdate>2025-01-01</lastUpdate>
+  <author>pentest</author>
+  <authorUrl>http://localhost</authorUrl>
+  <version>1.0.0</version>
+  <license>GPL</license>
+  <description>rce</description>
+ </metadata>
+ <compatibility>
+  <version>3.0</version>
+  <version>4.0</version>
+  <version>5.0</version>
+  <version>6.0</version>
+ </compatibility>
+ <updaters disabled="disabled"></updaters>
+</config>

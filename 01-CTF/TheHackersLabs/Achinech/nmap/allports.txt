@@ -1,0 +1,13 @@
+# Nmap 7.991 scan initiated Sat Oct 24 11:48:00 2026 as: /usr/lib/nmap/nmap --privileged -sT -p- --min-rate 3000 -T4 -oN nmap/allports.txt 192.168.56.108
+Nmap scan report for 192.168.56.108
+Host is up (0.000069s latency).
+Not shown: 65530 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+MAC Address: 08:00:27:81:9F:03 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sat Oct 24 11:48:01 2026 -- 1 IP address (1 host up) scanned in 1.10 seconds
