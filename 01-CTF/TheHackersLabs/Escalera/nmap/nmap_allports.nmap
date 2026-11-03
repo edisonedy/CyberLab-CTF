@@ -1,0 +1,10 @@
+# Nmap 7.991 scan initiated Tue Nov  3 10:50:02 2026 as: /usr/lib/nmap/nmap --privileged -p- --min-rate 2000 -T4 -oN /home/edison/CTF/maquina-100/escalera/nmap_allports.nmap 192.168.56.111
+Nmap scan report for 192.168.56.111
+Host is up (0.00018s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:8C:06:26 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Tue Nov  3 10:50:03 2026 -- 1 IP address (1 host up) scanned in 1.04 seconds
